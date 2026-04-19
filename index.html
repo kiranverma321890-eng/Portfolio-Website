@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+  <title>Portfolio </title>
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-container">
+        <h2>Kiran Verma</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="#contact-jump">Contact</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="Projects.html">Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Hi, <br>I am Kiran Verma</h1>
+        <h2>Aspiring Web Developer</h2>
+        <a href="resume.html" class="resume-btn" download>
+          View Resume
+        </a>
+      </div>
+      <div class="hero-img">
+        <img src="img/20260107_122028.jpg" alt="Profile iamge">
+      </div>
+    </section>
+    <section id="about" class="section about-box">
+      <h1>About Me</h1>
+      <p>I am a passionate aspiring Front-End developer learning HTML, CSS, and JavaScript.</p>
+      <a class="read" href="about.html">READ MORE</a>
+    </section>
+    <section class="skills-section">
+      <h1>Skills</h1>
+      <div class="skills-container">
+        <!-- MAIN SKILLS -->
+        <div class="skill-box">
+          <h4>HTML</h4>
+          <img src="img/html.png" alt="html" style="height:240px; width:170px; margin-top:-30px;">
+        </div>
+        <div class="skill-box">
+          <h4>CSS</h4>
+          <img src="img/css.png" alt="css" style="height:210px; width:170px;">
+        </div>
+        <div class="skill-box">
+          <h4>JavaScript</h4>
+          <img src="img/js.png" alt="js" style="height:210px; width:175px;">
+        </div>
+        <div class="skill-box">
+          <h4>MySQL</h4>
+          <img src="img/sql.png" alt="mysql" style="height:210px; width:177px;">
+        </div>
+      </div><br><br>
+      <!-- LEARNING SECTION -->
+      <h1>Learning</h1>
+      <div class="skills-container">
+        <div class="skill-box">
+          <h4>Python</h4>
+          <img src="img/python.png" alt="python" style="height:210px; width:170px;">
+        </div>
+        <div class="skill-box">
+          <h4>Java</h4>
+          <img src="img/java.png" alt="java" style="height:210px; width:170px;">
+        </div>
+        <div class="skill-box">
+          <h4>Spring Boot</h4>
+          <img src="img/springboot.png" alt="Springboot" style="height:180px; width:240px;">
+        </div>
+
+      </div>
+
+    </section>
+    <!--CONTACT-->
+    <div class="contact-form" id="contact-jump">
+      <h1>Contact</h1>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p><a href="contact.html" class="read">Click here</a></p>
+
+    </div>
+    <footer class="footer">
+      <h3>&copy; 2026 Kiran Verma<br><small>All Rights Reserved</small></h3>
+
+      <div class="footer-icons">
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
